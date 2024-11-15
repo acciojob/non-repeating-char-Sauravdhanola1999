@@ -15,7 +15,7 @@ function firstNonRepeatedChar(str) {
 		}
 
 		for(let char of str){
-		if (charCount[char] === 1) {
+		if (freqObj[char] === 1) {
 			return char;
 		}
 	}
